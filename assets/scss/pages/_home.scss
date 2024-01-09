@@ -1,0 +1,289 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $first-color;
+    border-bottom: 1px solid $second-color ;
+    nav{
+        background-color:$first-color;
+        width: 80%;
+        margin: auto;
+        .collapseDiv{
+            display: flex;
+            justify-content: center;
+            .navbar-nav{
+                li a{
+                    font-size: 15px;
+                    color: $a-color ;
+                    font-weight: 500;
+                    &:hover{
+                        color:$btn-color !important;
+                    }
+                }
+            }
+        }
+    }
+}
+#Gym{
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://preview.colorlib.com/theme/gym/img/header-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .GymHeader{
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 20px;
+            margin-bottom: 20px; 
+            text-align: center;
+            h1{
+               
+                font-size: 50px;
+                color: $first-color;
+                font-weight: 700;
+            } 
+            span{
+                margin-top: 20px;
+                margin-bottom: 20px; 
+                font-size: 20px; 
+                color: $first-color;
+            }
+        }
+    }
+
+}
+#ApiProducts{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:$bg-color ;
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .ApiProductsHeader{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+        #productList{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            .boxDiv{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-direction: column;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+                .title{
+                    font-size: 20px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    font-weight: 600;
+                }
+                .price{
+                    font-size: 20px;
+                    font-weight: 600; 
+                    color:$btn-color;
+                }
+                button{
+                    margin-top: 20px;
+                    margin-bottom: 20px; 
+                    width: 100%;
+                    height: 40px;
+                    border: none;
+                    background-color: $button-bg;
+                    color: $first-color;
+                    border-radius: 8px;
+                    font-weight: 600;
+                    &:hover{
+                        background-color: $a-color;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        #pagi{
+            width: 160px;
+            height: 40px;
+            border: none;
+            background-color: $a-color;
+            color:$first-color;
+            border-radius:5px ;
+            &:hover{
+                background-color: $btn-color;
+            }
+        }
+    }
+}
+
+    
+
+#Courses{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .CoursesHeader{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 20px;
+           margin-bottom: 20px;
+           h3{
+            margin-top: 20px;
+           margin-bottom: 20px;
+            font-size: 40px;
+            color: $a-color;
+            font-weight: 600;
+           }
+           span{
+            font-size: 17px;
+            color: $second-color;
+           }
+        }
+        .CoursesCard{
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 20px; 
+            img{
+                width: 100%;
+                height: auto;
+            }
+            button{
+                position: absolute;
+                bottom: 80px;
+                left: 30px;
+               width: 190px;
+               height: 40px;
+               border: none;
+               background-color:$btn-color;
+               color: $first-color;
+               font-size: 18px;
+               font-weight: 600;
+
+            }
+            .text{
+             display: flex; 
+             justify-content: space-between;
+             h5{
+                font-size: 22px;
+                font-weight: 600;
+             }
+             span{
+                color: $btn-color;
+                font-weight: 600;
+                font-size: 20px;
+             }
+               
+        }
+    }
+}}
+#Transaction{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://preview.colorlib.com/theme/gym/img/callto-bg.jpg');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+    .container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .TransactionItem{
+        margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 45px;
+        color: $first-color;
+        font-weight: 600;
+    }
+    p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 75%;
+        font-size: 16px;
+        color: $first-color;
+    }
+    button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 190px;
+        height: 45px;
+        background-color: $btn-color;
+        border: none;
+        font-size: 16px;
+        color: $first-color;
+        border-radius: 20px;
+        font-weight: 600;
+        &:hover{
+            border: 2px solid $first-color;
+            background-color: transparent;
+        }
+    }
+    }
+}}
+footer{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    border-top: 1px solid $foot-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        .foot{
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+        }
+    }
+}

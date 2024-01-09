@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+header nav {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+header nav .collapseDiv {
+  display: flex;
+  justify-content: center;
+}
+header nav .collapseDiv .navbar-nav li a {
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+}
+header nav .collapseDiv .navbar-nav li a:hover {
+  color: #F6214B !important;
+}
+
+#Gym {
+  width: 100%;
+  height: 600px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://preview.colorlib.com/theme/gym/img/header-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+#Gym .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Gym .container .GymHeader {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#Gym .container .GymHeader h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+}
+#Gym .container .GymHeader span {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+#ApiProducts {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+#ApiProducts .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#ApiProducts .container .ApiProductsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#ApiProducts .container #productList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#ApiProducts .container #productList .boxDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#ApiProducts .container #productList .boxDiv img {
+  width: 100%;
+  height: auto;
+}
+#ApiProducts .container #productList .boxDiv .title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#ApiProducts .container #productList .boxDiv .price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #F6214B;
+}
+#ApiProducts .container #productList .boxDiv button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: brown;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+}
+#ApiProducts .container #productList .boxDiv button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+#ApiProducts .container #pagi {
+  width: 160px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+#ApiProducts .container #pagi:hover {
+  background-color: #F6214B;
+}
+
+#Courses {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#Courses .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Courses .container .CoursesHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Courses .container .CoursesHeader h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+}
+#Courses .container .CoursesHeader span {
+  font-size: 17px;
+  color: gray;
+}
+#Courses .container .CoursesCard {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Courses .container .CoursesCard img {
+  width: 100%;
+  height: auto;
+}
+#Courses .container .CoursesCard button {
+  position: absolute;
+  bottom: 80px;
+  left: 30px;
+  width: 190px;
+  height: 40px;
+  border: none;
+  background-color: #F6214B;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+#Courses .container .CoursesCard .text {
+  display: flex;
+  justify-content: space-between;
+}
+#Courses .container .CoursesCard .text h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+#Courses .container .CoursesCard .text span {
+  color: #F6214B;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#Transaction {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://preview.colorlib.com/theme/gym/img/callto-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#Transaction .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Transaction .container .TransactionItem {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+#Transaction .container .TransactionItem h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 45px;
+  color: white;
+  font-weight: 600;
+}
+#Transaction .container .TransactionItem p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 75%;
+  font-size: 16px;
+  color: white;
+}
+#Transaction .container .TransactionItem button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 190px;
+  height: 45px;
+  background-color: #F6214B;
+  border: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 20px;
+  font-weight: 600;
+}
+#Transaction .container .TransactionItem button:hover {
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-top: 1px solid rgb(228, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+footer .container .foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.basketHead {
+  width: 100%;
+  height: 70px;
+}
+.basketHead .navItem {
+  justify-content: flex-end;
+}
+.basketHead form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#basketProduct {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#products {
+  margin-top: 28px;
+  padding-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  text-align: center;
+}
+.box img {
+  max-width: 100%;
+}
+.box button {
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: rgb(185, 168, 168);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+header nav {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+header nav .collapseDiv {
+  display: flex;
+  justify-content: center;
+}
+header nav .collapseDiv .navbar-nav li a {
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+}
+header nav .collapseDiv .navbar-nav li a:hover {
+  color: #F6214B;
+}
+
+#Gym {
+  width: 100%;
+  height: 600px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://preview.colorlib.com/theme/gym/img/header-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+#Gym .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#Gym .container .GymHeader {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#Gym .container .GymHeader h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+}
+#Gym .container .GymHeader span {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+#FormMethod {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+#FormMethod .container {
+  margin-top: 20px;
+}
+
+#displayCard .container #display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#displayCard .container #display .box {
+  width: 250px;
+  padding: 25px;
+  background-color: antiquewhite;
+  box-shadow: 0 1px 10px black;
+}
+#displayCard .container #display .box span {
+  font-weight: 500;
+  font-size: 18px;
+}
+#displayCard .container #display .box button {
+  color: white;
+  background-color: brown;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+#displayCard .container #display .box button:hover {
+  color: black;
+}
